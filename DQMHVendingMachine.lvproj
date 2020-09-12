@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -16,6 +17,9 @@
 		<Item Name="Config File Management" Type="Folder">
 			<Item Name="Config File Management.lvlib" Type="Library" URL="../Libraries/Config Files Management/Config File Management.lvlib"/>
 		</Item>
+		<Item Name="SQLITE Inventory" Type="Folder">
+			<Item Name="SQLITE Inventory.lvlib" Type="Library" URL="../Libraries/SQLITE Inventory/SQLITE Inventory.lvlib"/>
+		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Customized" Type="Folder">
 				<Item Name="BTN_Exit.ctl" Type="VI" URL="../CustomizeControls/BTN_Exit.ctl"/>
@@ -29,14 +33,13 @@
 			<Item Name="General UI.lvlib" Type="Library" URL="../Libraries/General UI/General UI.lvlib"/>
 			<Item Name="Money Control Pane.lvlib" Type="Library" URL="../Libraries/Money Control Pane/Money Control Pane.lvlib"/>
 			<Item Name="Product Selecting Pane.lvlib" Type="Library" URL="../Libraries/Product Selecting Pane/Product Selecting Pane.lvlib"/>
-		</Item>
-		<Item Name="SQLITE Inventory" Type="Folder">
-			<Item Name="SQLITE Inventory.lvlib" Type="Library" URL="../Libraries/SQLITE Inventory/SQLITE Inventory.lvlib"/>
+			<Item Name="Message Pane.lvlib" Type="Library" URL="../Libraries/Message Pane/Message Pane.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test General UI API.vi" Type="VI" URL="../Libraries/General UI/Test General UI API.vi"/>
 			<Item Name="Test Money Control Pane API.vi" Type="VI" URL="../Libraries/Money Control Pane/Test Money Control Pane API.vi"/>
 			<Item Name="Test Product Selecting Pane API.vi" Type="VI" URL="../Libraries/Product Selecting Pane/Test Product Selecting Pane API.vi"/>
+			<Item Name="Test Message Pane API.vi" Type="VI" URL="../Libraries/Message Pane/Test Message Pane API.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
