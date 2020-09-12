@@ -12,6 +12,7 @@
 	<Item Name="DB Path.vi" Type="VI" URL="../DB Path.vi"/>
 	<Item Name="Delete Product.vi" Type="VI" URL="../Delete Product.vi"/>
 	<Item Name="Get Inventory Data.vi" Type="VI" URL="../Get Inventory Data.vi"/>
+	<Item Name="Get Product Info.vi" Type="VI" URL="../Get Product Info.vi"/>
 	<Item Name="Set New Product.vi" Type="VI" URL="../Set New Product.vi"/>
 	<Item Name="Update Price.vi" Type="VI" URL="../Update Price.vi"/>
 	<Item Name="Update Stock.vi" Type="VI" URL="../Update Stock.vi"/>

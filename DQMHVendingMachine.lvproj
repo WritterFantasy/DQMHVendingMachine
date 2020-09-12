@@ -25,6 +25,8 @@
 				<Item Name="BTN_Exit.ctl" Type="VI" URL="../CustomizeControls/BTN_Exit.ctl"/>
 				<Item Name="BTN_Purchase.ctl" Type="VI" URL="../CustomizeControls/BTN_Purchase.ctl"/>
 				<Item Name="BTN_Setting.ctl" Type="VI" URL="../CustomizeControls/BTN_Setting.ctl"/>
+				<Item Name="BTN_AddToStock.ctl" Type="VI" URL="../CustomizeControls/BTN_AddToStock.ctl"/>
+				<Item Name="BTN_ChangeStock.ctl" Type="VI" URL="../CustomizeControls/BTN_ChangeStock.ctl"/>
 			</Item>
 			<Item Name="CurrencyEnum.ctl" Type="VI" URL="../TypeDefinitions/CurrencyEnum.ctl"/>
 			<Item Name="Invetory Data Type.ctl" Type="VI" URL="../Libraries/SQLITE Inventory/Invetory Data Type.ctl"/>
@@ -34,13 +36,16 @@
 			<Item Name="Money Control Pane.lvlib" Type="Library" URL="../Libraries/Money Control Pane/Money Control Pane.lvlib"/>
 			<Item Name="Product Selecting Pane.lvlib" Type="Library" URL="../Libraries/Product Selecting Pane/Product Selecting Pane.lvlib"/>
 			<Item Name="Message Pane.lvlib" Type="Library" URL="../Libraries/Message Pane/Message Pane.lvlib"/>
+			<Item Name="Configuration.lvlib" Type="Library" URL="../Libraries/Configuration/Configuration.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test General UI API.vi" Type="VI" URL="../Libraries/General UI/Test General UI API.vi"/>
 			<Item Name="Test Money Control Pane API.vi" Type="VI" URL="../Libraries/Money Control Pane/Test Money Control Pane API.vi"/>
 			<Item Name="Test Product Selecting Pane API.vi" Type="VI" URL="../Libraries/Product Selecting Pane/Test Product Selecting Pane API.vi"/>
 			<Item Name="Test Message Pane API.vi" Type="VI" URL="../Libraries/Message Pane/Test Message Pane API.vi"/>
+			<Item Name="Test Configuration API.vi" Type="VI" URL="../Libraries/Configuration/Test Configuration API.vi"/>
 		</Item>
+		<Item Name="BTN_Delete.ctl" Type="VI" URL="../CustomizeControls/BTN_Delete.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
