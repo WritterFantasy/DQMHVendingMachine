@@ -10,8 +10,20 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Auxiliar VIs" Type="Folder">
+			<Item Name="Write Values on Buttons.vi" Type="VI" URL="../Auxiliar VIs/Write Values on Buttons.vi"/>
+		</Item>
 		<Item Name="Config File Management" Type="Folder">
 			<Item Name="Config File Management.lvlib" Type="Library" URL="../Libraries/Config Files Management/Config File Management.lvlib"/>
+		</Item>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Customized" Type="Folder">
+				<Item Name="BTN_Exit.ctl" Type="VI" URL="../CustomizeControls/BTN_Exit.ctl"/>
+				<Item Name="BTN_Purchase.ctl" Type="VI" URL="../CustomizeControls/BTN_Purchase.ctl"/>
+				<Item Name="BTN_Setting.ctl" Type="VI" URL="../CustomizeControls/BTN_Setting.ctl"/>
+			</Item>
+			<Item Name="CurrencyEnum.ctl" Type="VI" URL="../TypeDefinitions/CurrencyEnum.ctl"/>
+			<Item Name="Invetory Data Type.ctl" Type="VI" URL="../Libraries/SQLITE Inventory/Invetory Data Type.ctl"/>
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Item Name="General UI.lvlib" Type="Library" URL="../Libraries/General UI/General UI.lvlib"/>
@@ -26,11 +38,6 @@
 			<Item Name="Test Money Control Pane API.vi" Type="VI" URL="../Libraries/Money Control Pane/Test Money Control Pane API.vi"/>
 			<Item Name="Test Product Selecting Pane API.vi" Type="VI" URL="../Libraries/Product Selecting Pane/Test Product Selecting Pane API.vi"/>
 		</Item>
-		<Item Name="BTN_Exit.ctl" Type="VI" URL="../CustomizeControls/BTN_Exit.ctl"/>
-		<Item Name="BTN_Setting.ctl" Type="VI" URL="../CustomizeControls/BTN_Setting.ctl"/>
-		<Item Name="CurrencyEnum.ctl" Type="VI" URL="../TypeDefinitions/CurrencyEnum.ctl"/>
-		<Item Name="Invetory Data Type.ctl" Type="VI" URL="../Libraries/SQLITE Inventory/Invetory Data Type.ctl"/>
-		<Item Name="Write Values on Buttons.vi" Type="VI" URL="../Auxiliar VIs/Write Values on Buttons.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
