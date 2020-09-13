@@ -22,6 +22,7 @@
 		</Item>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Customized" Type="Folder">
+				<Item Name="BTN_Delete.ctl" Type="VI" URL="../CustomizeControls/BTN_Delete.ctl"/>
 				<Item Name="BTN_Exit.ctl" Type="VI" URL="../CustomizeControls/BTN_Exit.ctl"/>
 				<Item Name="BTN_Purchase.ctl" Type="VI" URL="../CustomizeControls/BTN_Purchase.ctl"/>
 				<Item Name="BTN_Setting.ctl" Type="VI" URL="../CustomizeControls/BTN_Setting.ctl"/>
@@ -45,7 +46,6 @@
 			<Item Name="Test Message Pane API.vi" Type="VI" URL="../Libraries/Message Pane/Test Message Pane API.vi"/>
 			<Item Name="Test Configuration API.vi" Type="VI" URL="../Libraries/Configuration/Test Configuration API.vi"/>
 		</Item>
-		<Item Name="BTN_Delete.ctl" Type="VI" URL="../CustomizeControls/BTN_Delete.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
