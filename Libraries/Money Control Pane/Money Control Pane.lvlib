@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="20008000">
+	<Property Name="NI.Lib.Description" Type="Str">The money pane shown 4 controls that simulates the coins configures in the currency management section. When a button is pushed, the credit increments that value in the Message Pane. It also has a cancel button that sets the cancel event and returns the credit.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)Y!!!*Q(C=\&gt;8.43."%)&lt;B&lt;R!(DP:^$]AJ6!I/9)8E&amp;#I&amp;8_&gt;I/(%N;3/9&amp;*R#2&lt;#35X!+MW_X3R:#"F]!I284F,'`[:_(HP%A^?./ON6]\6C]?ZT0T[?;?]U8TM`^JX7;4\V@DT_VR6PD&amp;_?B,UE8V\^U`EX`F5-`R]`R@R`DV3`"JX]0"L5(%:655%[:WL*TEC&gt;ZEC&gt;ZEC&gt;ZE!&gt;ZE!&gt;ZE!?ZETOZETOZETOZE2OZE2OZE2NZ&lt;_1C&amp;\H))37,*QMFES94**WB+(F*0)EH]31?0CLR**\%EXA3$VW5?"*0YEE]C9&gt;B3DS**`%EHM4$6&amp;W3P:(D34R-L]!4?!*0Y!E],+H!%Q##R9+*AUFA+$A:P!E]A3@Q]&amp;;"*`!%HM!4?$CNQ".Y!E`A#4Q-[&lt;M38&gt;-;/2[GE?.R0)\(]4A?JJ&lt;D=4S/R`%Y(J;4YX%]$M*:U*E=AJR"4A@HA_.R00S3YX%]DM@R/"Z/^3PE@7?;JD6S0)&lt;(]"A?QW.YG%+'R`!9(M.D?*B7BM@Q'"\$9XB93I&lt;(]"A?!W)MSP)S*D-''JW-Q0$QU_]7[V=JOM2[E_LG6&gt;W5KJN.&gt;2/J&lt;A\626&gt;&gt;4.6&amp;5GW_;F.6G[8;".5@JU+L-+J&amp;6).&lt;2RVZ06"\;K*WV*&lt;;5'NK23X&lt;U!`O?$Q?&gt;4A=N.`P.5W4&gt;LO&gt;NNON.JO.VOOV6KO6FMPF_4&amp;Q4TM`%%\0J:(XY_/@9@T\-)T4LW&amp;]_MXHZ[(F8`$`_2M]'X7DFWOQ2`]!ADQWP1!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>

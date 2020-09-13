@@ -1,5 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="20008000">
+	<Property Name="NI.Lib.Description" Type="Str">This pane allows the user to see and select a product to purchase. It has a listbox in which all existing products in stok will be shown. Products that are not available, said the ones that are not in stok (stock = 0), are not displayed.
+
+When a poroduct is selected, the purchase button should be pushed in order to execute the purchase.</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)1!!!*Q(C=\&gt;4.51*"%-8RJ_8"+W=P&amp;CFU#K2!#JU#6Y_EU#G1!CG]&amp;%C"&amp;0!`9R&gt;3FMB&amp;KST,77;".V]`:J?6:HG5(H3[6:[_,/`N&lt;VX(_8,12@NYH=[@LIZ`OD[_XS^*(^LHU-`&lt;L`FP&amp;0W8``+XS]P.0]'0`Q`O."Z%6&amp;/,GN4170:E=J/&lt;X/1G.XG2&amp;XG2&amp;XG2&amp;XG3*XG3*XG3*XG1"XG1"XG1"`E]S%5O=J&amp;$-IO&lt;B=SE:A,4'9L-S8C-RXC-B[]S(O-R(O-R(LL)?)T(?)T(?"AGYT%?YT%?YW'K+@%]S0%9$^/L]"3?QF.Y#A^,KP!5A'+R9O*C%BAK'IM0B;@Q&amp;"Y_KP!5HM*4?!I0T3I]B;@Q&amp;*\#QZ#Z+T5VYS$(QT2+0)EH]33?R-053DS**`%EHM4$=EI]C3&gt;"*!MGEU.1-CDJE(R*0)G(.S7?R*.Y%E`CI7F?I:Q\-T4D)-=4?!*0Y!E]A9=J&amp;(A#4_!*0)'(;26Y!E`A#4S"B[55?!*0Y!EAQ;)MLW#S9'$1+1A#$[^ZN]3]3D5F-1_J&lt;V\V4;G_W&gt;1XE@LG5&amp;^U^=658S4VZKMX6&lt;V:[EV1`TAV7IV2,[)?0$LKS0F!X6.XV#VV1VV46^1F&gt;4''@H0(Y`'IQ_'A`8[PX7[H\8;LT7;D^8KNV7KFZ8+JR7*R@AQ]=ZQ@#,`BO@1L$0?[8)-^?A5P75`O!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>

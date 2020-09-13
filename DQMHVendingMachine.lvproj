@@ -1,5 +1,11 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.Project.Description" Type="Str">This project emulates a vending machine using the Delacor Queue Message Handler (DQMH) template. It has 5 modules: The UI in which all the other modules will be displayed, the Coin Module, in which the inserted coin are selected, the Product Selection Module, where the available products are displayed and can be selected; the Message Module, where the state of the machine, as well as the movements made, are shown; and the Configuration Module, where all the settings of the machine can be modified.
+
+The configuration module allows the user to interact with the data base and with the .ini file as well. The data base stores all the product information, and the user can add product, delete them, and modify them in the Product Managment section in the Configuratiuon Module.
+
+The .ini file stores the currency information used by the coins module. In this file the 4 coins denomination an values are stored, allowing the user to customize the coins that will be used, but only 4 of them. This configuration can be changed in the Currency Management section in de Configuration Module.</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -28,6 +34,7 @@
 				<Item Name="BTN_Setting.ctl" Type="VI" URL="../CustomizeControls/BTN_Setting.ctl"/>
 				<Item Name="BTN_AddToStock.ctl" Type="VI" URL="../CustomizeControls/BTN_AddToStock.ctl"/>
 				<Item Name="BTN_ChangeStock.ctl" Type="VI" URL="../CustomizeControls/BTN_ChangeStock.ctl"/>
+				<Item Name="BTN_DMCPurchase.ctl" Type="VI" URL="../CustomizeControls/BTN_DMCPurchase.ctl"/>
 			</Item>
 			<Item Name="CurrencyEnum.ctl" Type="VI" URL="../TypeDefinitions/CurrencyEnum.ctl"/>
 			<Item Name="Invetory Data Type.ctl" Type="VI" URL="../Libraries/SQLITE Inventory/Invetory Data Type.ctl"/>
